@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoldsikkaSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="dashboard.dashboardtestng">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="test"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- dashboard.dashboardtestng -->
+      <class name="setting.settingtestng">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="beforeclass"/>
+          <include name="test1"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- setting.settingtestng -->
+      <class name="goldsuvidha.buygoldbacctestng">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="test1"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- goldsuvidha.buygoldbacctestng -->
+      <class name="goldsuvidha.Buygold">
+        <methods>
+          <include name="test1"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- goldsuvidha.Buygold -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [GoldsikkaSuite] -->

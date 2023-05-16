@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GoldsikkaSuite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="sprinttestng.logouttestng"/>
+	  <class name="sprinttestng.Scheamtestng"/>
+	  <class name="sprinttestng.scheambookaccounttestng"/>
+      <class name="Bookingacc.addmoneytestng"/>
+      <class name="Bookingacc.withdramoney"/>
+      <class name="dashboard.dashboardtestng"/>
+      <class name="goldsuvidha.Buygold"/>
+      <class name="goldsuvidha.buygoldbacctestng"/>
+      <class name="goldsuvidha.redeemtestng"/>
+      <class name="goldsuvidha.Sellgoldtestng"/>
+      <class name="goldsuvidha.transfertestng"/>
+      <class name="passbook.passbooktestng"/>
+      <class name="Eventtest.eventtestng"/>
+      <class name="Eventtest.marrigetestng"/>   
+      <class name="setting.settingtestng"/>   
+      <class name="ecommerce.Ecommercetestng"/>   
+
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- GoldsikkaSuite -->

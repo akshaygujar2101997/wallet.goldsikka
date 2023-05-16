@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suitedash]" guice-stage="DEVELOPMENT">
+  <parameter name="browsers" value="Firefox"/>
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="dashboard.dashboardtestng"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="Test1">
+    <classes>
+      <class name="dashboard.dashboardtestng"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [Suitedash] -->

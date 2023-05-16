@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suitedashboard]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="dashboardTest">
+    <classes>
+      <class name="dashboard.dashboardtestng"/>
+    </classes>
+  </test> <!-- dashboardTest -->
+  <test parallel="none" name="dashboardTest(failed)">
+    <classes>
+      <class name="dashboard.dashboardtestng">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- dashboard.dashboardtestng -->
+    </classes>
+  </test> <!-- dashboardTest(failed) -->
+</suite> <!-- Failed suite [Suitedashboard] -->

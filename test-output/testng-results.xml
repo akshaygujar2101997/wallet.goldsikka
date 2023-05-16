@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-16T10:31:04 IST" name="Default suite" finished-at="2023-05-16T10:31:33 IST" duration-ms="28928">
+    <groups>
+    </groups>
+    <test started-at="2023-05-16T10:31:04 IST" name="Default test" finished-at="2023-05-16T10:31:33 IST" duration-ms="28928">
+      <class name="Eventtest.eventtestng">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Eventtest.eventtestng@16a0ee18]" started-at="2023-05-16T10:31:04 IST" name="beforeclass" finished-at="2023-05-16T10:31:08 IST" duration-ms="3347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Eventtest.eventtestng@16a0ee18]" started-at="2023-05-16T10:31:08 IST" name="beforemethod" finished-at="2023-05-16T10:31:08 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="test1()[pri:0, instance:Eventtest.eventtestng@16a0ee18]" started-at="2023-05-16T10:31:08 IST" name="test1" finished-at="2023-05-16T10:31:33 IST" duration-ms="25365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Eventtest.eventtestng@16a0ee18]" started-at="2023-05-16T10:31:33 IST" name="aftermethod" finished-at="2023-05-16T10:31:33 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=eventtestng.test1()[pri:0, instance:Eventtest.eventtestng@16a0ee18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Eventtest.eventtestng@16a0ee18]" started-at="2023-05-16T10:31:33 IST" name="afterclass" finished-at="2023-05-16T10:31:33 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- Eventtest.eventtestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
